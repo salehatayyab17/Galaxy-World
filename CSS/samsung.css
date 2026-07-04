@@ -118,9 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../HTML/Screenshot 2025-04-20 163706.png') center/cover no-repeat;
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.6);
+  background: radial-gradient(circle at center, #1a1a2e 0%, #000 70%);
 }
 .hero-title {
   font-size: 70px;
@@ -863,7 +861,10 @@ main {
 
 .imagesend {
   height:100vh;
-  background:url('../CSS/Screenshot 2025-04-20 164456.png');
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   text-align: center;
   overflow-x: hidden;
